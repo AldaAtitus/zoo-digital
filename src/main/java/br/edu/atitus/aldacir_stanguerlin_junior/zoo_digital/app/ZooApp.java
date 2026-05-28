@@ -42,12 +42,12 @@ public class ZooApp {
     }
 
     // Métodos para cada funcionalidade (a implementar)
-    private static void cadastrarAnimal(Scanner sc) { /* TODO */ }
-    private static void listarTodos() { /* TODO */ }
-    private static void listarCorredores() { /* TODO */ }
-    private static void listarNadadores() { /* TODO */ }
-    private static void listarVoadores() { /* TODO */ }
-    private static void listarPredadores() { /* TODO */ }
-    private static void exibirTotal() { /* TODO */ }
+    private static void cadastrarAnimal(Scanner sc) {}
+    private static void listarTodos() {}
+    private static void listarCorredores() {}
+    private static void listarNadadores() {}
+    private static void listarVoadores() {}
+    private static void listarPredadores() {}
+    private static void exibirTotal() {}
 }
 
