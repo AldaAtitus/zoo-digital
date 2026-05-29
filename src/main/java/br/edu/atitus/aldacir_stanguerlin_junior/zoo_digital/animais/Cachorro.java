@@ -2,7 +2,7 @@ package br.edu.atitus.aldacir_stanguerlin_junior.zoo_digital.animais;
 
 import br.edu.atitus.aldacir_stanguerlin_junior.zoo_digital.comportamentos.*;
 import br.edu.atitus.aldacir_stanguerlin_junior.zoo_digital.especies.*;
-//import br.edu.atitus.interfaces.Nado;
+//import br.edu.atitus.interfaces.Nadador;
 
 public final class Cachorro extends Mamifero implements Corredor, Nadador{
     public Cachorro(String nome, Integer idade) {
