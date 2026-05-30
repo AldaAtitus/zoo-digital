@@ -1,4 +1,5 @@
 package br.edu.atitus.aldacir_stanguerlin_junior.zoo_digital.animais;
+
 import br.edu.atitus.aldacir_stanguerlin_junior.zoo_digital.especies.*;
 import br.edu.atitus.aldacir_stanguerlin_junior.zoo_digital.comportamentos.*;
 
@@ -16,23 +17,23 @@ public class Pato extends Ave implements Corredor, Nadador, Voador{
     
     @Override
     public void emitirSom() {
-        IO.println(getNome() + " está grasnando");
+        System.out.println(getNome() + " está grasnando");
     }
     
 
     @Override
     public void voar() {
-        IO.println(this.getNome() + " está voando em migração para o Sul!");
+        System.out.println(this.getNome() + " está voando em migração para o Sul!");
     }
 
     @Override
     public void nadar() {
-        IO.println(this.getNome() + " está nadando elegantemente!");
+        System.out.println(this.getNome() + " está nadando elegantemente!");
     }
 
     @Override
     public void correr() {
-        IO.println(this.getNome() + " está correndo todo atrapalhado!");
+        System.out.println(this.getNome() + " está correndo todo atrapalhado!");
     }
 
 }

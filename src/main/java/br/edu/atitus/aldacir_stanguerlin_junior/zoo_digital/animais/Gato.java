@@ -3,7 +3,7 @@ package br.edu.atitus.aldacir_stanguerlin_junior.zoo_digital.animais;
 import br.edu.atitus.aldacir_stanguerlin_junior.zoo_digital.especies.*;
 import br.edu.atitus.aldacir_stanguerlin_junior.zoo_digital.comportamentos.*;
 
-public final class Gato extends Mamifero implements Corredor, Nadador {
+public final class Gato extends Mamifero implements Corredor, Nadador, Predador {
     public Gato(String nome, Integer idade) {
         super(nome, idade, true);
     }
@@ -15,16 +15,20 @@ public final class Gato extends Mamifero implements Corredor, Nadador {
 
     @Override
     public void emitirSom() {
-        IO.println(this.getNome() +  " está miando!");
+        System.out.println(this.getNome() +  " está miando!");
     }
 
     @Override
     public void nadar() {
-        IO.println(this.getNome() + " está nadando apavorado!");
+        System.out.println(this.getNome() + " está nadando apavorado!");
     }
     
     @Override
     public void correr() {
-        IO.println(this.getNome() + " está correndo pelo telhado!");
+        System.out.println(this.getNome() + " está correndo pelo telhado!");
     }
+
+    @Override
+    public void cacar() {
+        System.out.println(this.getNome() + " está caçando um rato!");}
 }

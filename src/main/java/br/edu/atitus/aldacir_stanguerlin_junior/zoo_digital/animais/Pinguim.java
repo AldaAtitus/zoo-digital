@@ -3,7 +3,7 @@ package br.edu.atitus.aldacir_stanguerlin_junior.zoo_digital.animais;
 import br.edu.atitus.aldacir_stanguerlin_junior.zoo_digital.especies.*;
 import br.edu.atitus.aldacir_stanguerlin_junior.zoo_digital.comportamentos.*;
 
-public class Pinguim extends Ave implements Nadador {
+public final class Pinguim extends Ave implements Nadador, Predador {
 
     public Pinguim(String nome, int idade, String corPenas) {
         super(nome, idade, corPenas);
@@ -11,17 +11,21 @@ public class Pinguim extends Ave implements Nadador {
 
     @Override
     public void comer() {
-        this.comer("peixes");
+        this.comer("peixes e krill");
     }
 
     @Override
     public void emitirSom() {
-        IO.println(getNome() + " está grasnando");
+        System.out.println(getNome() + " está grasnando no gelo!");
     }
 
     @Override
     public void nadar() {
-        IO.println(getNome() + " está nadando atrás de peixes");
+        System.out.println(getNome() + " está nadando atrás de krill no gelo!");
     }
-    
+
+    @Override
+    public void cacar() {
+        System.out.println(getNome() + " está caçando peixes no oceano gelado!");
+    }
 }

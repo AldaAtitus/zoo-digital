@@ -16,12 +16,12 @@ public class PeixeMorcego extends Peixe implements Nadador{
 
     @Override
     public void emitirSom() {
-        IO.println(getNome() + " está borbulhando");
+        System.out.println(getNome() + " está borbulhando");
     }
 
     @Override
     public void nadar() {
-        IO.println(getNome() + " está nadando tranquilamente");
+        System.out.println(getNome() + " está nadando tranquilamente");
     }
     
     
