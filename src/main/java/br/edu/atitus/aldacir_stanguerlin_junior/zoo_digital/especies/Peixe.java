@@ -14,8 +14,4 @@ public abstract class Peixe extends Animal {
     public void setTipoAgua(String tipoAgua) {
         this.tipoAgua = tipoAgua;
     }
-
-
-    
-    
 }

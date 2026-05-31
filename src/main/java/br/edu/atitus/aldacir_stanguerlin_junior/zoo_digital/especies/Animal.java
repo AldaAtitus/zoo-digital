@@ -62,8 +62,5 @@ public abstract class Animal {
         return "Nome: " + this.getNome() + "; Idade: " + this.getIdade() + " anos.";
     }
 
-
     public abstract void emitirSom();
-
-    
 }

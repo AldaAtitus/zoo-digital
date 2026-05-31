@@ -3,7 +3,7 @@ package br.edu.atitus.aldacir_stanguerlin_junior.zoo_digital.animais;
 import br.edu.atitus.aldacir_stanguerlin_junior.zoo_digital.comportamentos.*;
 import br.edu.atitus.aldacir_stanguerlin_junior.zoo_digital.especies.*;
 
-public class Traira extends Peixe implements Nadador, Predador {
+public final class Traira extends Peixe implements Nadador, Predador {
 
     public Traira(String nome, int idade) {
         super(nome, idade, "Doce");

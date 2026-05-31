@@ -15,7 +15,4 @@ public abstract class Ave extends Animal{
     public void setCorPenas(String corPenas) {
         this.corPenas = corPenas;
     }
-    
-    
-    
 }
