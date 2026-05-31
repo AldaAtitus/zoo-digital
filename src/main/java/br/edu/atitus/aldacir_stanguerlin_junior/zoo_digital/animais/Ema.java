@@ -20,6 +20,6 @@ public final class Ema extends Ave implements Corredor {
 
     @Override
     public void correr() {
-        System.out.println(getNome() + " está correndo muito rápido pela savana!");
+        System.out.println(getNome() + " está correndo muito rápido pela cerrado!");
     }
 }
