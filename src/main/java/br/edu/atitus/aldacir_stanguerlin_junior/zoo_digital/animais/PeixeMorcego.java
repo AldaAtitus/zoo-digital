@@ -3,7 +3,7 @@ package br.edu.atitus.aldacir_stanguerlin_junior.zoo_digital.animais;
 import br.edu.atitus.aldacir_stanguerlin_junior.zoo_digital.comportamentos.*;
 import br.edu.atitus.aldacir_stanguerlin_junior.zoo_digital.especies.*;
 
-public class PeixeMorcego extends Peixe implements Nadador{
+public final class PeixeMorcego extends Peixe implements Nadador{
 
     public PeixeMorcego(String nome, int idade) {
         super(nome, idade, "Salgada");

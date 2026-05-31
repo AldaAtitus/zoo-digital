@@ -27,6 +27,6 @@ public abstract class Reptil extends Animal {
     }
 
     public void rastejar() {
-        IO.println(this.getNome() + " está rastejando pelo chão.");
+        System.out.println(this.getNome() + " está rastejando pelo chão.");
     }
 }

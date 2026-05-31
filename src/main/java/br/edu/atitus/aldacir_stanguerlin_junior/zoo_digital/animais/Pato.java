@@ -3,7 +3,7 @@ package br.edu.atitus.aldacir_stanguerlin_junior.zoo_digital.animais;
 import br.edu.atitus.aldacir_stanguerlin_junior.zoo_digital.especies.*;
 import br.edu.atitus.aldacir_stanguerlin_junior.zoo_digital.comportamentos.*;
 
-public class Pato extends Ave implements Corredor, Nadador, Voador{
+public final class Pato extends Ave implements Corredor, Nadador, Voador{
 
     public Pato(String nome, Integer idade, String corPenas) {
         super(nome, idade, corPenas);

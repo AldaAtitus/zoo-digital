@@ -52,7 +52,7 @@ public abstract class Animal {
     // Sobrecarga de método - Polimorfismo estático
     // Dois ou mais métodos com o mesmo identificador, mas assinatura diferentes
     public final void comer(String alimento) {
-        IO.println(this.getNome() + " está comendo " + alimento);
+        System.out.println(this.getNome() + " está comendo " + alimento);
     }
 
     // Sobrescrevendo o método herdado da classe Object
